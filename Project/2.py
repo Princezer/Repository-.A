@@ -1,0 +1,5 @@
+numbera = input("enter number: ")
+print(f"{numbera} is a awful number")
+numberb = input("enter a better number: ")
+if{numberb} = {numbera} then print ("that is the same number")
+print("mutch better")
