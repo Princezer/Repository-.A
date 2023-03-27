@@ -30,4 +30,5 @@ while confirm != "y":
                     f"{initial_payment}\n"
                     f"enter Y for yes and N for no: ").lower()
 
-print ("\nStart Up Game")
+#main script
+print ("start game")
