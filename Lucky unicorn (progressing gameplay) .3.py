@@ -24,7 +24,8 @@ print("Welcome to Lucky Unicorn :)\n"
 
 while confirm != "y":
     initial_payment = int(input("\nHow much would you like to pay with?: "))
-    Cash = {Cash + initial_payment}
+    Cash = Cash + initial_payment
+    print (Cash)
 
     while initial_payment > 10 or initial_payment < 1:
         initial_payment = int(input("\nSorry\nthe number you put in is not a "
@@ -49,7 +50,7 @@ Generate_token = input(f"You have ${initial_payment} left\n"
        f"press anything else to end and leave with your money\n\n"
                f"Play?: ").upper()
 
-while Generate_token == "Y" and Cash>=1:
+while Generate_token == "Y" and Cash >= 1:
     Cash = Cash-1
 
     for item in range(1):
